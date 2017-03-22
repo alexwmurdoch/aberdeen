@@ -1,0 +1,24 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *
+ *  Copy of the font-awesome.scss file from the bower components.  Edit this to
+ *  achieve configuration control for font-awesome.
+ *
+ * Set the font path and import the required filesfont
+ */
+$fa-font-path: "./fonts/fontawesome";
+
+@import "variables";
+@import "mixins";
+@import "path";
+@import "core";
+@import "larger";
+@import "fixed-width";
+@import "list";
+@import "bordered-pulled";
+@import "animated";
+@import "rotated-flipped";
+@import "stacked";
+@import "icons";
+@import "screen-reader";

@@ -1,0 +1,27 @@
+{
+  "name": "aberdeen",
+  "version": "0.0.1",
+  "homepage": "",
+  "description": "Bootstrap 3 WordPress theme",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Alex Murdoch"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "fontawesome": "latest"
+  },
+  "devDependencies": {
+    "bootstrap-select": "^1.11.2",
+    "bootstrap-dropdown-hover": "^1.0.4"
+  }
+}

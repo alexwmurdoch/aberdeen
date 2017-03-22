@@ -1,0 +1,33 @@
+//.site-footer{
+//  color:#fff;
+//  a {
+//    color: #fff;
+//    text-decoration: none;
+//
+//    &:hover,
+//    &:focus {
+//      color: #fff;
+//      text-decoration: $link-hover-decoration;
+//    }
+//
+//    &:focus {
+//      @include tab-focus;
+//    }
+//  }
+//}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+## Top Footer
+--------------------------------------------------------------*/
+@import "top-footer";
+
+/*--------------------------------------------------------------
+## Bottom Footer
+--------------------------------------------------------------*/
+@import "bottom-footer";

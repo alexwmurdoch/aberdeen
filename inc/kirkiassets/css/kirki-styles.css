@@ -1,0 +1,31 @@
+/**
+ * Make the customizer stretch 25% of the screen
+**/
+/*.wp-full-overlay-sidebar {*/
+    /*width: 25%;*/
+/*}*/
+
+/*.wp-full-overlay.expanded {*/
+    /*margin-left: 25%;*/
+/*}*/
+
+/*.expanded .wp-full-overlay-footer {*/
+    /*width: 25%;*/
+/*}*/
+
+/**
+ * Constrain the images to 30% of the screen
+**/
+
+#input_blog_layout_setting > label {
+    width:30%;
+}
+
+#input_page_layout_setting > label {
+    width:30%;
+}
+
+.customize-control-kirki-slider input[type="range"] {
+    border-radius: 12px;
+    height: 15px !important;
+}

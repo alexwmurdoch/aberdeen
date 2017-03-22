@@ -1,0 +1,94 @@
+//.comment-content a {
+//	word-wrap: break-word;
+//}
+//.bypostauthor {
+//	display: block;
+//}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.comments-title,
+.comment-reply-title {
+	padding-bottom: 10px;
+	margin: 40px 0 20px 0;
+	border-bottom: 1px solid $gray-lighter;
+}
+
+ol.comment-list {
+	list-style:none;
+	padding-left: 0;
+}
+
+.comment-author .avatar {
+	margin-right: 25px;
+	@extend .img-thumbnail;
+	//@extend .img-circle;
+}
+
+.comment-meta {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a.comment-edit-link{
+	@extend .btn;
+	@extend .btn-default;
+	@extend .btn-xs;
+}
+
+
+.comment-details {
+	overflow: hidden;
+	zoom: 1;
+	padding-bottom: 1em;
+	.reply a {
+		@extend .pull-right;
+		@extend .btn;
+		@extend .btn-default;
+		@extend .btn-xs;
+	}
+}
+
+.comment-date a {
+	margin-right: 1em;
+	font-size: 0.765em;
+	color: $gray-light;
+	&:hover {
+		text-decoration: none;
+		color: $gray-darker;
+	}
+}
+
+
+
+.bypostauthor{
+	border: 1px solid $gray-lighter;
+	padding:10px;
+	.avatar{
+		@extend .img-circle;
+	}
+}
+
+/*--------------------------------------------------------------
+# Comment Form
+--------------------------------------------------------------*/
+#cancel-comment-reply-link{
+	@extend .btn;
+	@extend .btn-xs;
+	@extend .btn-default;
+}
+
+#commentform #comment {
+	width: 100% !important;
+}
+
+#commentform #submit {
+	@extend .btn;
+	//@extend .btn-xs;
+	@extend .btn-default;
+}

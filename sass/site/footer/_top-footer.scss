@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+Top Footer
+--------------------------------------------------------------*/
+#top-footer {
+ margin-top: 1.5em;
+
+ .widget {
+  margin: 0 0 1.5em;
+ }
+ .widget_tag_cloud {
+  .tagcloud {
+   a {
+    @extend .btn-default;
+   }
+  }
+ }
+
+ #wp-calendar {
+  caption{
+   //color:#ffffff;
+  }
+  th, td {
+   //border: 1px solid #ffffff;
+  }
+  tbody td#today {
+   background-color: lighten(#fff, 13.5%);
+   color: #000;
+  }
+  tbody td a,
+  tfoot td#prev a,
+  td#next a {
+   @extend .btn-default;
+  }
+ }
+ .bootstrap-select .btn.dropdown-toggle{
+  @extend .btn-default;
+ }
+}
+
+
+#top-footer{
+ padding-top:4em;
+  //background-color:$gray-base;
+  background-color:#f5f5f5;
+}
+

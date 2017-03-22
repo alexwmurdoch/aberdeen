@@ -1,0 +1,147 @@
+//.sticky {
+//	display: block;
+//}
+//
+//.hentry {
+//	margin: 0 0 1.5em;
+//}
+//
+//.byline,
+//.updated:not(.published){
+//	display: none;
+//}
+//
+//.single .byline,
+//.group-blog .byline {
+//	display: inline;
+//}
+//
+//.page-content,
+//.entry-content,
+//.entry-summary {
+//	margin: 1.5em 0 0;
+//}
+//
+//.page-links {
+//	clear: both;
+//	margin: 0 0 1.5em;
+//}
+
+.sticky::before{
+	position: absolute;
+	top:1.5rem;
+	right:2.5rem;
+	display:block;
+	font-size:2em;
+	font-family:"FontAwesome";
+	content:"\f08d";
+	color:$gray-light;
+}
+
+.sticky {
+	position:relative;
+	display: block;
+	border: 1px solid $gray-lighter;
+	padding: 1em;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+# entry-meta
+  --------------------------------------------------------------*/
+
+.entry-meta,
+.entry-footer {
+	font-size: 0.9em;
+
+	.fa {
+		color: $gray-light;
+		margin-right: 2px;
+	}
+
+	span {
+		margin-right: 1em;
+		display: inline-block;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# author-meta
+  --------------------------------------------------------------*/
+
+.author-meta {
+	margin-top: 2.5em;
+	.avatar {
+		@extend .img-thumbnail;
+		@extend .img-circle;
+	}
+	.fa{
+		font-size:1.5em;
+		padding-right:0.5em;
+	}
+}
+
+.media{
+	.media-heading{
+		margin-bottom:1em;
+	}
+	.media-body p{
+		font-style:italic;
+	}
+}
+
+.author-social{
+	margin:1em 0 0 0;
+}
+/*--------------------------------------------------------------
+# Search Results: highlight search word in search results list
+  --------------------------------------------------------------*/
+.search-highlight {
+	background:yellow;
+}
+
+
+
+a.link-continue-reading{
+  @extend .btn;
+  @extend .btn-default;
+  @extend .btn-xs;
+  @extend .pull-right;
+}
+//
+//.archive-description{
+//  font-style:italic;
+//  //border:1px solid $gray-lighter;
+//  margin-top:1.5em;
+//  margin-bottom:1.5em;
+//  padding:0.5em 1.8em 0;
+//
+//}
